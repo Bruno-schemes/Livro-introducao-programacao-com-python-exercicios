@@ -1,3 +1,6 @@
+from random import Random, random
+
+
 numero1 = int(input("Digite um numero: "))
 numero2 = int(input("Digite mais um numero: "))
 numero3 = int(input("Digite um outro numero: "))
@@ -26,4 +29,6 @@ if numero2 < numero3 and numero2 < numero1:
 
 if numero1 < numero2 and numero1 < numero3:
     print(f"{numero1} é o menor numero")
+
+ 
 
